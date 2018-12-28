@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/2.0.5/typed.js"></script>
+		<style type="text/css">
+			.typed-fade-out {
+				opacity: 0;
+				transition: opacity .25s;
+				-webkit-animation: 0;
+				animation: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<a class="element"></a><br>
+		<div class='box'></div>
+		<button onclick="stop()">停止</button><button onclick="start()">继续</button><button onclick="reset()">重置</button><button onclick="toggle()">切换</button>
+		<input type="text" class="input"/>
+		<script type="text/javascript">
+		function stop(){
+			typed.stop()
+		}
+		function start(){
+			typed.start()
+		}
+		function reset(){
+			typed.start()
+			typed.reset()//当原先暂停时在重置  还是暂停  需开启
+		}
+		function toggle(){
+			typed.toggle()//只是在暂停与继续中切换
+		}
+		
+		var  array=['<p>打字的速度<p><p>原先就有回退效果  添加后使其更明显<p><p>延迟多少秒后在打下个子字</p>']
+			
+			
+			var typed =new Typed('.element', {
+				strings: array, //所要打的文字内容
+				typeSpeed: 30, //打字的速度
+				backSpeed: 50, //原先就有回退效果  添加后使其更明显
+				backDelay: 2000, //延迟多少秒后在打下个子字*/
+				//fadeOut: true, //使原先回退效果变成淡出效果
+				//fadeOutDelay: 2000, //淡出的时间                                  必须与fadeOut配合使用否则无效
+				//fadeOutClass:'typed-fade-out',//未看出效果
+				//loop:true,//是否循环                                                        必须与loopCount结合才能有效果
+				//loopCount:3, //循环的次数
+				//showCursor:false,//是否显示光标                                                                                      默认情况下显示光标
+				//cursorChar:'*',//改变光标样式 
+				//autoInsertCss:false,//未看出效果
+				//attr:'placeholder',//将该文本在属性中显示                    与js的setAttribute用法相同   
+				//bindInputFocusEvents:true//获取光标时是否继续输入                 只对input有效
+				//contentType:'html',//是否解析文本标签   'html'              对input无效                              默认情况下会解析文本标签
+				/*onComplete:function(item){   //打印完成执行的函数          内有一个参数 （全局对象） 具体参数内容看图     不考虑循环
+				  console.log(item)
+				},*/
+				/*preStringTyped:function(arrayPos,item){// 打印前执行          内有两个参数  arrayPos（不清楚有啥用）  item（全局对象）
+					console.log(arrayPos)
+				}*/
+				/*onLastStringBackspacedfunction(arrayPos,item){//打印一次循环后执行的事件   考虑循环    必须与loop以及loopCount结合使用
+					console.log(1)
+				}   （未成功）*/
+				/*onTypingPaused:function(){
+					console.log('暂停')
+				},
+				onTypingResumed:function(){
+					console.log('暂停后开始')
+				}*/                                //以上两个方法均未实现  
+				
+			});
+		</script>
+	</body>
+
+</html>

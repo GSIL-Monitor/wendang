@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+
+	</head>
+	<style type="text/css">
+		[v-clock] {
+			display: none;
+		}
+	</style>
+
+	<body>
+
+		<!-- v-clock   数据没有完成加载之前  加载完成后v-clock就消失了 -->
+		<div id="show">
+			<p v-clock>{{haha}}
+				<p>
+					<p v-show="Ninja">i am hide</p>
+					<p v-show="!Ninja">i am here!!!</p>
+					<button v-on:click="Ninja = !Ninja">click me</button>
+		</div>
+
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
+	<script type="text/javascript">
+		setTimeout(function() {
+			new Vue({
+				el: "#show",
+				data: {
+					Ninja: true,
+					haha: "呵呵"
+				}
+			});
+		}, 5000);
+	</script>
+
+</html>

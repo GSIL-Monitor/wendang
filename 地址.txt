@@ -1,0 +1,33 @@
+telegram 下载地址  C:\Users\Administrator\Downloads\Telegram Desktop
+
+谷歌下载地址 ：C:\Users\Administrator\Downloads
+
+h5 git地址 http://106.15.38.45/git/songbai/figure_h5
+http://dev.esongbai.xyz/git/songbai/figure_h5.git
+运行地址：http://qh.esongbai.abc/?pCode=7sedj&sign=6f5f5a065a622f81
+new地址：https://test.skr.today/?pCode=7sedj&sign=6f5f5a065a622f81
+代理地址：http://qh.esongbai.abc/?pCode=7scnx&sign=e5c26de0144784a5
+
+pc git地址 http://106.15.38.45/git/songbai/figure_manager_html
+运行地址：http://qh0.esongbai.abc/admin/login.html 
+原型地址 http://dev.esongbai.xyz/show/docs/
+new地址：https://testsys.skr.today/admin/login.html     
+pingtai   admin  888888 
+
+
+客服git地址  http://git.skr.today/
+运行地址     http://cus0.esongbai.abc/admin/newManager/pages/index.html
+这个是新的H5客服域名    cus.esongbai.abc  
+这个是新的客服后台地址  http://cus0.esongbai.abc/admin/login.html   
+
+coninc测试地址   testbpc.skr.today 
+
+接口文档地址  http://eolinker.esongbai.xyz
+
+
+jenkins地址： http://40.83.97.72/jenkins/ admin admin123
+邮箱地址 https://aus.mxroute.com:2096/cpsess9228159225/webmail/manager/index.html?mailclient=horde
+  账号 casper  密码casper.s@1px.life
+接口文档  账号casper 密码suyonghong22
+ git 账号 比时空：1477953531@qq.com  密码 12345678   客服：1477953531@qq.com  suyonghong22
+ 栈道用户名 全拼  密码 Kj1234 大写k
